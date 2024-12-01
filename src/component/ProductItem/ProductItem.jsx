@@ -17,7 +17,7 @@ export const ProductItem = ({ product, className, onAdd }) => {
             Price: <b>{product.price}</b>
           </span>
         </div>
-        <Button className={"add-btn"} onClick="onAddHandler">
+        <Button className={"add-btn"} onClick={onAddHandler}>
           Add to bucket
         </Button>
       </div>
