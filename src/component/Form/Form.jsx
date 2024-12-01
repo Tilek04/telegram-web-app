@@ -66,7 +66,7 @@ export const Form = () => {
         onChange={onChangeStreet}
       />
 
-      <select value={subjetc} onChange={onChangeSubject} className={"select"}>
+      <select value={subject} onChange={onChangeSubject} className={"select"}>
         <option value={"legal"}>Legal entity</option>
         <option value={"physical"}>Physical entity</option>
       </select>
